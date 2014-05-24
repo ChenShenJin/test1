@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* CSS Document */
+.top_bg {
+	background: url(../img/top_bg.gif) no-repeat;
+	background-position: center top;
+	width: 100%;
+	margin: 0px;
+	position: fixed;
+	z-index: 100000000000;
+}
+.all {
+	background: url(../img/background.jpg) no-repeat;
+	width: 100%;
+	margin: 0px auto;
+	padding-top: 120px;
+	text-align: center;
+	background-attachment: fixed;
+	background-position: center top;
+}
+h1 {
+	color: #1ec676;
+	font-family: "Trebuchet MS", "微軟正黑體", Times, serif;
+	font-size: 14px;
+	font-style: bold;
+	font-variant: normal;
+	position: relative;
+	line-height: 12px;
+}
+h1 a {
+	color: #36C;
+	font-family: "Trebuchet MS", "微軟正黑體", Times, serif;
+	font-size: 14px;
+	font-style: bold;
+	font-variant: normal;
+	position: relative;
+	line-height: 12px;
+}
+h1 a:hover {
+	color: #6C3;
+	font-family: "Trebuchet MS", "微軟正黑體", Times, serif;
+	font-size: 14px;
+	font-style: bold;
+	font-variant: normal;
+	position: relative;
+	line-height: 12px;
+}
+h2 {
+	color: #7d7e7d;
+	font-family: "Trebuchet MS", "微軟正黑體", Times, serif;
+	font-size: 14px;
+	font-style: bold;
+	font-variant: normal;
+	position: relative;
+	line-height: 12px;
+}
+p1 {
+	color: #FFF;
+	font-family: "Trebuchet MS", "微軟正黑體", Times, serif;
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	position: relative;
+	top: -17px;
+	line-height: 12px
+}
+p2 {
+	color: #7d7e7d;
+	font-family: "Trebuchet MS", "微軟正黑體", Times, serif;
+	font-size: 10px;
+	font-style: normal;
+	font-variant: normal;
+	position: relative;
+	padding-left: 10px;
+	line-height: 0px
+}
+#header {
+	width: 1024px;
+	margin: 0 auto;
+	z-index: 200;
+	height: 90px;
+}
+ul.topnav {
+	list-style: none;
+	padding: 0 20px;
+	position: relative;
+	left: 509px;
+	top: -15px;
+	margin: 0;
+	z-index: 10;
+	float: left;
+	width: 200px;
+	font-size: 12px;
+}
+ul.topnav li {
+	float: left;
+	margin: 0;
+	padding: 0 15px 0 0;
+	position: relative; /*--Declare X and Y axis base--*/
+}
+ul.topnav li a {
+	padding: 8px 0px;
+	color: #0e0e0e;
+	display: block;
+	font-family: "Trebuchet MS", "微軟正黑體", Times, serif;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav li a:hover {
+	background: url(../img/topnav_hover.png) no-repeat center top;
+}
+ul.topnav li span { /*--Drop down trigger styles--*/
+	width: 23px;
+	height: 62px;
+	float: left;
+	position: relative;
+	top: -38px;
+	left: 210px;
+	background: url(../img/subnav_btn.png) no-repeat center top;
+}
+ul.topnav li span.subhover {
+	background-position: center bottom;
+	cursor: pointer;
+} /*--Hover effect for trigger--*/
+ul.topnav li ul.subnav {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 30px;
+	top: -22px;
+	margin: 0;
+	padding: 0;
+	display: none;
+	float: left;
+	width: 200px;
+	-moz-border-radius-bottomleft: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-webkit-border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	-moz-box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+	-webkit-box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+}
+ul.topnav li ul.subnav li {
+	margin: 0;
+	padding: 0;
+	clear: both;
+	width: 200px;
+}
+html ul.topnav li ul.subnav li a {
+	float: left;
+	width: 190px;
+	padding-left: 10px;
+}
+html ul.topnav li ul.subnav li a:hover { /*--Hover effect for subnav links--*/
+}
+ul.topnav2 {
+	list-style: none;
+	padding: 0 20px;
+	position: relative;
+	left: 720px;
+	top: -30px;
+	margin: 0;
+	float: left;
+	z-index: 1000000000000;
+	width: 200px;
+	font-size: 12px;
+}
+ul.topnav2 li {
+	float: left;
+	margin: 0;
+	padding: 0 15px 0 0;
+	position: relative; /*--Declare X and Y axis base--*/
+}
+ul.topnav2 li a {
+	padding: 8px 0px;
+	color: #0e0e0e;
+	display: block;
+	font-family: "Trebuchet MS", "微軟正黑體", Times, serif;
+	text-decoration: none;
+	float: left;
+}
+ul.topnav2 li a:hover {
+	background: url(../img/topnav_hover.png) no-repeat center top;
+}
+ul.topnav2 li span { /*--Drop down trigger styles--*/
+	width: 23px;
+	height: 62px;
+	float: left;
+	position: relative;
+	top: -20px;
+	left: 210px;
+	background: url(../img/subnav_btn2.png) no-repeat center top;
+}
+ul.topnav2 li span.subhover {
+	background-position: center bottom;
+	cursor: pointer;
+} /*--Hover effect for trigger--*/
+ul.topnav2 li ul.subnav2 {
+	list-style: none;
+	position: absolute; /*--Important - Keeps subnav from affecting main navigation flow--*/
+	left: 85px;
+	top: -09px;
+	margin: 0;
+	padding: 0;
+	display: none;
+	float: left;
+	width: 150px;
+	-moz-border-radius-bottomleft: 7px;
+	-moz-border-radius-bottomright: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-webkit-border-bottom-right-radius: 7px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+	-moz-box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+	-webkit-box-shadow: 4px 4px 12px -2px rgba(20%,20%,40%,0.5);
+}
+ul.topnav2 li ul.subnav2 li {
+	margin: 0;
+	padding: 0;
+	clear: both;
+	width: 150px;
+}
+html ul.topnav2 li ul.subnav2 li a {
+	float: left;
+	width: 140px;
+	padding-left: 10px;
+}
+html ul.topnav2 li ul.subnav2 li a:hover { /*--Hover effect for subnav links--*/
+}
+.menu {
+	padding: 0px 0px 0px 0px;
+	margin: 0;
+	vertical-align: middle;
+	height: 60px;
+}
+.menu ul {
+	padding: 0;
+	list-style: none;
+	border: 0;
+	float: none;
+	height: 60px;
+	vertical-align: middle;
+}
+.menu ul li {
+	float: left;
+	margin: 0;
+	padding: 0px 2px 0px 0px;
+	width: 89px;
+	height: 60px;
+	vertical-align: middle;
+}
+.menu ul li a {
+	padding: 0px 0px 0px 0px;
+	width: 91px;
+	height: 60px;
+	float: inherit;
+	color: #ffffff;
+	font: normal 14px "Trebuchet MS", "微軟正黑體", Times, serif;
+	text-decoration: none;
+}
+.menu ul li a:hover {
+	width: 91px;
+	height: 60px;
+	background: url(../img/menu_hover.png) bottom;
+	vertical-align: middle;
+}
+.menu ul li a.active {
+	width: 91px;
+	height: 60px;
+	background: url(../img/menu_active.png) bottom;
+}
+#container {
+	margin: 0 auto;
+	width: 1024px;
+	padding-bottom: 300px;
+}
+.container_00 {
+	height: 1px;
+}
+.container_01 {
+	width: 52px;
+}
+.container_01 a {
+	padding: 35px 5px 10px 5px;
+	width: 52px;
+	background: url(../img/meetingroomoff.png) no-repeat;
+	color: #36C;
+	font-family: "Trebuchet MS", "微軟正黑體", Times, serif;
+	font-size: 14px;
+	font-style: bold;
+	font-variant: normal;
+	line-height: 12px;
+	text-decoration: none;
+}
+.container_01 a:hover {
+	color: #6C3;
+	font-family: "Trebuchet MS", "微軟正黑體", Times, serif;
+	font-size: 14px;
+	font-style: bold;
+	line-height: 12px;
+	background: url(../img/meetingroomon.png) no-repeat;
+}
+#footer {
+	min-width: 1024px;
+	height: 131px;
+	bottom: 0px;
+}
+.footer {
+	width: 60px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 25px;
+	font: normal 11px "Trebuchet MS", "微軟正黑體", Times, serif;
+	text-decoration: none;
+}
+.footer a {
+	color: #ffffff;
+	text-align: center;
+	line-height: 25px;
+	font: normal 11px "Trebuchet MS", "微軟正黑體", Times, serif;
+	text-decoration: none;
+}
+#copyright {
+	width: 60px;
+	padding: 0px 3px 0px 50px;
+	color: #ffffff;
+	text-align: left;
+	font: normal 11px "Trebuchet MS", "微軟正黑體", Times, serif;
+	text-decoration: none;
+}

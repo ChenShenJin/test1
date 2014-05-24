@@ -1,0 +1,273 @@
+<!DOCTYPE HTML>
+<html lang="zh-TW" dir="ltr">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<title>EZUC+</title>
+<link rel="stylesheet" href="css/style.css" style="text/css">
+<link rel="shortcut icon" href="/ucapp/favicon.ico" />
+
+ <link rel="stylesheet" type="text/css" href="css/style_drop.css" />
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css' />
+		<script type="text/javascript" src="js/modernizr.custom.79639.js"></script> 
+		<noscript><link rel="stylesheet" type="text/css" href="css/noJS.css" /></noscript>
+        
+        
+
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+		<script type="text/javascript">
+
+			function DropDown(el) {
+				this.dd = el;
+				this.initEvents();
+			}
+			DropDown.prototype = {
+				initEvents : function() {
+					var obj = this;
+
+					obj.dd.on('click', function(event){
+						$(this).toggleClass('active');
+						event.stopPropagation();
+					});	
+				}
+			}
+
+			$(function() {
+
+				var dd = new DropDown( $('#dd') );
+
+				$(document).click(function() {
+					// all dropdowns
+					$('.wrapper-dropdown-5').removeClass('active');
+				});
+
+			});
+
+		</script>
+        
+        		<script type="text/javascript">
+
+			function DropDown(el) {
+				this.dd2 = el;
+				this.initEvents();
+			}
+			DropDown.prototype = {
+				initEvents : function() {
+					var obj = this;
+
+					obj.dd2.on('click', function(event){
+						$(this).toggleClass('active');
+						event.stopPropagation();
+					});	
+				}
+			}
+
+			$(function() {
+
+				var dd2 = new DropDown( $('#dd2') );
+
+				$(document).click(function() {
+					// all dropdowns
+					$('.wrapper-dropdown-5').removeClass('active');
+				});
+
+			});
+
+		</script>
+        
+        
+        
+        
+        <script>
+self.focus();
+function downloadIOS(f) {
+	var url='http://140.207.49.108/ucapp/download_ios/' + f;
+	window.open(url, 'downloadFrame', 'height=100, width=600, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no');
+}
+
+
+function downloadAPK(f) {
+	var url='http://140.207.49.108/ucapp/download/' + f;
+	window.open(url, 'downloadFrame', 'height=100, width=600, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no');
+}
+
+function downloadDesktop(f) {
+	var url='http://140.207.49.108/ucapp/download_desktop/' + f;
+	window.open(url, 'downloadFrame', 'height=100, width=600, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no');
+}
+
+
+function downloadDoc(f) {
+	var url='http://140.207.49.108/ucapp/doc/' + f;
+	window.open(url, 'downloadFrame', 'height=100, width=600, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no');
+}
+</script>
+
+
+        
+</head>
+
+<body background="img/background.jpg" style="background-repeat:no-repeat; background-position:center top; background-attachment:fixed; min-width:1200px;">
+<div id="header">
+  <div class="top_bg">
+    <table  background="img/menu_bg.jpg" align="center" cellpadding="0" cellspacing="0"  height="90" max-width=" 1024" min-width="1024">
+      <tr >
+        <td style="padding:0px 0px 0px 54px"><a href="index.html"><img src="img/LOGO.png" alt="EZUC" style="border:0px;" ></a></td>
+        <td style="padding:0px 0px 0px 10px"><h0>管理系統</h0></td>
+        <td width="116" align="center" style="padding-left:353px;">
+        <div class="menu">
+            <ul>
+              <li><a href="download.html" class="active"><br>
+                下載</a></li>
+            </ul>
+          </div></td>
+        <td width="185" align="center"><div class="btn_login" style="display:none;"><a href="login.html">登入</a></div></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<div style="width:800px; height:300px; position:relative; margin:0px auto; top:150px;">
+  <h1>Android / </h1>
+  <div class="qr_code"><img src="img/barcode_android.png" width="150" height="150" /></div>
+  <h2>手機掃描QR Code</h2>
+  <img src="img/blue_arrow.png" /><span id="p1">用您的手機掃描旁邊的QR Code，或者在手機上開啟 <a href="#" onclick="downloadAPK('EZUC_8_0_1_RC2_20140215B1.apk');return false;">下載EZUC+</a><br>
+  <font color="red">*注意：版本8.0.1更新軟體簽章，若先前安裝為8.0.0，需先卸載舊版。</font><a href="/ucapp/doc/Uninstall_EZUC.pdf" target="_uninstall" style="text-align:center">如何卸載 EZUC+？</a> </span>
+  <div id="p2"> 產品版本：EZUC 8.0.1 (RC2_20140215) <br>
+    發佈日期：2014-02-15 <br>
+    <div class="p_btn2"><a href="#" style=" text-align:center; color:#FFF; height:43px;">&nbsp;&nbsp;&nbsp;&nbsp;DOWNLOAD</a> </div>
+  </div>
+  <div id="p2" style="padding-top:7px;">
+    <div class="edition">
+      <ul>
+        ※&nbsp;版本更新說明
+        <li>解決發送訊息正常時, 卻跑出發送錯誤圖示的問題</li>
+      </ul>
+      <div id="p5"><a href="../download.jsp">＞歷史版本</a></div>
+    </div>
+  </div>
+</div>
+<div style="width:800px;  height:350px; position:relative; margin:0px auto; top:180px; ">
+  <h1>iOS</h1>
+  <div class="qr_code"><img src="img/barcode_ios.png" width="150" height="150" /></div>
+  <h2>手機掃描QR Code</h2>
+  <img src="img/blue_arrow.png" /><span id="p1">用您的手機掃描旁邊的QR Code，或者在手機上開啟 <a href="itms-services://?action=download-manifest&url=http://140.207.49.108/ucapp/download_ios/EZUCPLUS.plist">下載EZUC+</a><br>
+  若您尚未安裝QRCode Scaner,可 <a href="https://itunes.apple.com/tw/app/bakodo-barcode-scanner-qr/id371932548?l=zh&mt=8" target="_new">點選</a> 安裝QRCode Scaner<br>
+  </span>
+  <div id="p2"> 產品版本：EZUC 8.0.0 (RC6_20140214) <br>
+    發佈日期：2014-02-14 <br>
+    <div class="p_btn2"><a href="#" style=" text-align:center; color:#FFF; height:43px;">&nbsp;&nbsp;&nbsp;&nbsp;DOWNLOAD</a> </div>
+  </div>
+  <div id="p2" style="padding-top:7px;">
+    <div class="edition">
+      <ul>
+        ※&nbsp;版本更新說明
+        <li>修正電話連線判斷</li>
+        <li>修正企業編號轉換</li>
+        <li>修正聊天室狀態</li>
+        <li>修正外撥名稱顯示</li>
+        <li>修正跨區打電話</li>
+      </ul>
+      <div id="p5"><a href="../download_ios.jsp">＞歷史版本</a></div>
+    </div>
+  </div>
+</div>
+<div style="width:800px;  height:250px; position:relative; margin:0px auto; top:180px; ">
+  <h1>Windows</h1>
+  <div class="qr_code"><img src="img/desktop_client.png" width="150" height="123" /></div>
+  <img src="img/blue_arrow.png" /><span id="p1">請先選擇語言版本，點選按鍵後，即可下載應用程式！<br>
+  </span>
+  <div id="p2"> 產品版本：EZUC 8.0.0 (RC2_20140214)<br>
+    發佈日期：2014-02-14 <br>
+    
+    
+    <section class="main">
+				<div class="wrapper-demo">
+					<div id="dd" class="wrapper-dropdown-5" tabindex="1">Download
+						<ul class="dropdown">
+							<li style=" position:relative; left:-40px; border-top:1px solid #3DC482;	border-left:1px solid #3DC482; border-right:1px solid #3DC482;border-radius: 10px 10px 0px 0px;">
+                            <a href="#">Profile</a></li>
+							<li style=" position:relative; left:-40px; border-left:1px solid #3DC482; border-right:1px solid #3DC482;"><a href="#">Settings</a></li>
+							<li style=" position:relative; left:-40px;border-bottom:1px solid #3DC482;	border-left:1px solid #3DC482; border-right:1px solid #3DC482;border-radius: 0px 0px 10px 10px;"><a href="#">Log out</a></li>
+						</ul>
+					</div>
+				​</div>
+			</section>
+            
+            
+            
+  </div>
+  <div id="p2" style="padding-top:7px;">
+    <div class="edition">
+      <ul>
+        ※&nbsp;版本更新說明
+        <li>嚐鮮版</li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div style="width:800px;  height:300px; position:relative; margin:0px auto; top:180px; ">
+  <h1>使用手冊</h1>
+  <div class="qr_code"><img src="img/usermanual.png" width="150" height="147" /></div>
+  <img src="img/blue_arrow.png" /><span id="p1">請先選擇版本及語系，點選按鍵後，即可下載各版本使用手冊！<br>
+  </span>
+  <div id="p2">
+        
+    <section class="main">
+				<div class="wrapper-demo">
+					<div id="dd2" class="wrapper-dropdown-5" tabindex="1">Download
+						<ul class="dropdown">
+							<li style=" position:relative; left:-40px; border-top:1px solid #3DC482;	border-left:1px solid #3DC482; border-right:1px solid #3DC482;border-radius: 10px 10px 0px 0px;">
+                            <a href="#">Profile</a></li>
+							<li style=" position:relative; left:-40px; border-left:1px solid #3DC482; border-right:1px solid #3DC482;"><a href="#">Settings</a></li>
+							<li style=" position:relative; left:-40px;border-bottom:1px solid #3DC482;	border-left:1px solid #3DC482; border-right:1px solid #3DC482;border-radius: 0px 0px 10px 10px;"><a href="#">Log out</a></li>
+						</ul>
+					</div>
+				​</div>
+			</section>
+  </div>
+</div>
+
+<div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+</div>
+
+<div class="footer_bg" style="position:relative; margin:0px auto; top:180px;">
+  <table background="img/EZUC+footer_bg.jpg" align="center" cellpadding="0" cellspacing="0"  height="133" width="1024">
+    <tr >
+      <td width="50" style="padding:0px 6px 0px 54px"><div id="copyright"> <img src="img/BlissCloud.png" alt="EZUC" ></div></td>
+      <td width="300" align="left" style="color:#FFF; font-size:12px;"> © 2014 贊雲科技股份有限公司 版權所有 </td>
+      <td width="10" ><img src="img/line.jpg" width="2" height="45" /></td>
+      <td ><div class="footer" style="line-height:21px;"> <a href="#">關於EZUC+</a><br>
+          <a href="#">服務條款</a><br>
+        </div></td>
+      <td width="10" ><img src="img/line.jpg" width="2" height="45" /></td>
+      <td><div class="footer" style="line-height:21px;"> <a href="#">需要幫助嗎？常見問題</a><br>
+          <a href="#">連繫客服團隊</a><br>
+        </div></td>
+    </tr>
+  </table>
+</div>
+
+</body>
+</html>

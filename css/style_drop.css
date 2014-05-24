@@ -1,0 +1,160 @@
+@import url('demo.css');
+@import url('font-awesome.css');
+
+
+.main {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	z-index:9999999999;
+}
+
+
+
+/* DEMO 5 */
+
+.wrapper-dropdown-5 {
+    /* Size & position */
+    position: relative;
+    width: 152px;
+	text-transform:uppercase;
+    margin: 0 auto;
+	height:35px;
+	padding-top:10px;
+	padding-left:48px;
+	font-size:18px;
+	color:#FFF;
+	top:50px;
+	left:-10px;
+
+    /* Styles */
+    background: url(../img/Dropdownload.png);
+    cursor: pointer;
+    outline: none;
+}
+
+.wrapper-dropdown-5:hover { /* Little arrow */
+    position: relative;
+    width: 152px;
+	text-transform:uppercase;
+    margin: 0 auto;
+	height:35px;
+	padding-top:10px;
+	padding-left:48px;
+	font-size:18px;
+	color:#FFF;
+
+    /* Styles */
+    background: url(../img/Dropdownload_over.png);
+    cursor: pointer;
+    outline: none;
+}
+
+.wrapper-dropdown-5:after { /* Little arrow */
+    position: relative;
+    width: 152px;
+	text-transform:uppercase;
+    margin: 0 auto;
+	height:35px;
+	padding-top:10px;
+	padding-left:48px;
+	font-size:18px;
+	color:#FFF;
+
+    /* Styles */
+    background: url(../img/Dropdownload.png);
+    cursor: pointer;
+    outline: none;
+}
+
+.wrapper-dropdown-5 .dropdown {
+    /* Size & position */
+    position: relative;
+	width:195px;
+	left:-45px;
+	top:-11px;
+	   /* Styles */
+    border-radius: 10px 10px 10px 10px;
+	background:#FFF;
+
+    list-style: none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+	
+
+    /* Hiding */
+    max-height: 0;
+    overflow: hidden;
+}
+
+.wrapper-dropdown-5 .dropdown li {
+    padding: 0 5px ;
+}
+
+.wrapper-dropdown-5 .dropdown li a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+	padding-left:0px;
+    padding: 10px 0;
+    transition: all 0.3s ease-out;
+    border-bottom: 1px solid #e6e8ea;
+}
+
+.wrapper-dropdown-5 .dropdown li:last-of-type a {
+    border: none;
+}
+
+.wrapper-dropdown-5 .dropdown li i {
+    margin-right: 5px;
+    color: inherit;
+    vertical-align: middle;
+}
+
+/* Hover state */
+
+.wrapper-dropdown-5 .dropdown li:hover a {
+    color: #57a9d9;
+}
+
+/* Active state */
+
+.wrapper-dropdown-5.active {
+    position: relative;
+    width: 152px;
+	text-transform:uppercase;
+    margin: 0 auto;
+	height:35px;
+	padding-top:10px;
+	padding-left:48px;
+	font-size:18px;
+	color:#FFF;
+
+    /* Styles */
+    background: url(../img/Dropdownload.png);
+    cursor: pointer;
+    outline: none;
+}
+
+.wrapper-dropdown-5.active:after {
+	
+}
+
+.wrapper-dropdown-5.active .dropdown {
+    max-height: 400px;
+}
+
+/* No CSS3 support: none */
+
+
+
+
+
+
+
+
+
+/* No CSS3 support: none */

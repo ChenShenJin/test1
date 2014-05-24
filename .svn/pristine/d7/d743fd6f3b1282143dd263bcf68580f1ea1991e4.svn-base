@@ -1,0 +1,188 @@
+<!DOCTYPE HTML>
+<html lang="zh-TW" dir="ltr">
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+<title>EZUC+</title>
+<link rel="stylesheet" href="css/style.css" style="text/css">
+
+
+<script>
+self.focus();
+function downloadIOS(f) {
+	var url='http://140.207.49.108/ucapp/download_ios/' + f;
+	//var url='https://dl.dropboxusercontent.com/u/94237777/ezucplus/20140129A1/EZUCPLUS20140129A1.ipa';
+	window.open(url, 'downloadFrame', 'height=100, width=600, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no');
+}
+
+
+function downloadAPK(f) {
+	var url='http://140.207.49.108/ucapp/download/' + f;
+	//alert(url);
+	window.open(url, 'downloadFrame', 'height=100, width=600, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no');
+}
+
+function downloadDesktop(f) {
+	var url='http://140.207.49.108/ucapp/download_desktop/' + f;
+	//var url='https://www.dropbox.com/s/qr9spfugaxx9nrh/ucChatClient.exe';
+	window.open(url, 'downloadFrame', 'height=100, width=600, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no');
+}
+
+
+function downloadDoc(f) {
+	var url='http://140.207.49.108/ucapp/doc/' + f;
+	window.open(url, 'downloadFrame', 'height=100, width=600, top=0, left=0, toolbar=no, menubar=no, scrollbars=no, resizable=no,location=n o, status=no');
+}
+</script>
+
+</head>
+
+<body background="img/background.jpg" style="background-repeat:no-repeat; background-position:center top; background-attachment:fixed; min-width:1200px;">
+<div id="header">
+  <div class="top_bg">
+    <table  background="img/menu_bg.jpg" align="center" cellpadding="0" cellspacing="0"  height="90">
+      <tr >
+        <td style="padding:0px 0px 0px 54px"><a href="index.html"><img src="img/LOGO.png" alt="EZUC" style="border:0px;" ></a></td>
+        <td style="padding:0px 0px 0px 10px"><h0>管理系統</h0></td>
+        <td width="116" align="center" style="padding-left:353px;"><div class="menu">
+            <ul>
+              <li><a href="download.html" class="active"><br>
+                下載</a></li>
+            </ul>
+          </div></td>
+        <td width="185" align="center"><div class="btn_login" style="display:none;"><a href="login.html">登入</a></div></td>
+      </tr>
+    </table>
+  </div>
+</div>
+<table  align="center" cellpadding="0" cellspacing="0"  style="padding-top:90px;">
+  <tr>
+    <td background="img/Download_01.png" width="950" height="375" cellpadding="0" cellspacing="0"><div class="container_01">
+        <h1>Android</h1>
+        <div id="p1">
+          <h2>手機掃描QR Code</h2>
+          用您的手機掃描旁邊的QR Code，或者在手機上開啟 <a href="#" onclick="downloadAPK('UCMobileApp20140127B1.apk');return false;">下載EZUC+</a><br>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30%" height="120"><div id="p2">
+                產品版本：EZUC 8.0.0.RC20_20140127 <br>
+                文檔版本：v1.0 <br>
+                發佈日期：2014-01-27 <br>
+                <div class="p_btn2"><a href="#" onclick="downloadAPK('UCMobileApp20140127B1.apk');return false;" style=" text-align:center; color:#FFF; height:43px;">&nbsp;&nbsp;&nbsp;&nbsp;DOWNLOAD</a> </div></td>
+              <td width="70%" rowspan="2" height="150">
+			  <ul style="list-style-position: 
+      inside; margin-top:16px; width:300px; vertical-align:top;color: #8c8c8c;
+	font-family: 'Trebuchet MS', '微軟正黑體', Times, serif;	font-size: 12px;
+	font-style: normal;	font-variant: normal;">
+                  ※&nbsp;版本更新說明
+<li>Asterisk升級到11.7.0版本</li>
+<li>外網登錄時不使用VPN的連線方式，改用TLS直連</li>
+<li>減少APP後臺運行時的耗電量以及網路流量</li>
+<li>增加各種網路狀況時的連線穩定度
+<li>新增勿打擾設定按鈕，使用者線上狀態中去掉勿打擾狀態</li>
+                </ul>
+				
+                <div id="p5"><a href="../download.jsp">＞歷史版本</a></div></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+  </tr>
+  <tr>
+    <td background="img/Download_02.png" width="950" height="300" cellpadding="0" cellspacing="0"><div class="container_02">
+        <h1>iOS</h1>
+        <div id="p1">
+          <h2>手機掃描QR Code</h2>
+          用您的手機掃描旁邊的QR Code，或者在手機上開啟 <a href="itms-services://?action=download-manifest&url=https://dl.dropboxusercontent.com/u/94237777/ezucplus/20140129A1/EZUCPLUS20140129A1.plist">下載EZUC+</a><br>
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30%" height="120"><div id="p2">
+                產品版本：EZUC 8.0.0.RC1_20140129 <br>
+                文檔版本：v1.0 <br>
+                發佈日期：2014-01-29 <br>
+                <div class="p_btn2"><a href="#" onclick="downloadIOS('EZUCPLUS20140129A1.ipa');return false;" style=" text-align:center; color:#FFF; height:43px;">&nbsp;&nbsp;&nbsp;&nbsp;DOWNLOAD</a> </div></td>
+              <td width="70%" rowspan="2" height="150"><ul style="list-style-position: 
+      inside; margin-top:16px; width:300px; vertical-align:top;color: #8c8c8c;
+	font-family: 'Trebuchet MS', '微軟正黑體', Times, serif;	font-size: 12px;
+	font-style: normal;	font-variant: normal;">
+                  ※&nbsp;版本更新說明
+				<li>嚐鮮版</li>
+
+				</ul>
+				<BR/>
+				<BR/>
+				<BR/>
+				<BR/>
+				
+                <div id="p5"><a href="../download_ios.jsp">＞歷史版本</a></div></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+  </tr>
+  <tr>
+    <td background="img/Download_03.png" width="841" height="250" cellpadding="0" cellspacing="0"><div class="container_03">
+      <h1>Windows</h1>
+      <div id="p1" style="padding-top:30px;">
+      點選按鍵後，即可下載應用程式！ <br>
+	            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="30%" height="120"><div id="p2">
+                產品版本：EZUC 8.0.0.RC1_20140129 <br>
+                文檔版本：v1.0 <br>
+                發佈日期：2014-01-29 <br>
+                <div class="p_btn2"><a href="#" onclick="downloadDesktop('ucChatClient20140129.exe');return false;" style=" text-align:center; color:#FFF; height:43px;">&nbsp;&nbsp;&nbsp;&nbsp;DOWNLOAD</a> </div>
+              <td width="70%" rowspan="2" height="150"><ul style="list-style-position: 
+      inside; margin-top:16px; width:300px; vertical-align:top;color: #8c8c8c;
+	font-family: 'Trebuchet MS', '微軟正黑體', Times, serif;	font-size: 12px;
+	font-style: normal;	font-variant: normal;">
+                  ※&nbsp;版本更新說明
+				<li>嚐鮮版</li>
+
+				</ul>
+				<BR/>
+				<BR/>
+				<BR/>
+				<BR/>
+            </tr>
+          </table>
+
+      
+  </div></div></tr>
+  <tr>
+    <td background="img/Download_04.png" width="950" height="254" cellpadding="0" cellspacing="0"><div class="container_04">
+        <h1>使用手冊</h1>
+        <div id="p3">點選按鍵後，即可下載繁體版或簡體版使用手冊！<br>
+          <br>
+          <br>
+          <br>
+ <div class="p_btn"><a href="#" onclick="downloadDoc('UserManual_RC3_20130708-CHT.docx');return false;" style="text-align:center">繁體下載</a></div>
+ <div class="p_btn"><a href="#" onclick="downloadDoc('UserManual_RC3_20130708-CHS.docx');return false;" style="text-align:center">簡體下載</a></div>
+        </div>
+      </div>
+    <td width="265" style="padding:0px 0px 0px 0px"></td>
+    <td width="1"></td>
+  </tr>
+</table>
+<div class="footer_bg">
+  <table background="img/EZUC+footer_bg.jpg" align="center" cellpadding="0" cellspacing="0"  height="133" width="1024">
+    <tr >
+      <td width="50" style="padding:0px 6px 0px 54px"><div id="copyright"> <img src="img/BlissCloud.png" alt="EZUC" ></div></td>
+      <td width="300" align="left" style="color:#FFF; font-size:12px;"> © 2014 贊雲科技股份有限公司 版權所有 </td>
+      <td width="10" ><img src="img/line.jpg" width="2" height="45" /></td>
+      <td ><div class="footer" style="line-height:21px;"> <a href="#">關於EZUC+</a><br>
+          <a href="#">服務條款</a><br>
+        </div></td>
+      <td width="10" ><img src="img/line.jpg" width="2" height="45" /></td>
+      <td><div class="footer" style="line-height:21px;"> <a href="#">需要幫助嗎？常見問題</a><br>
+          <a href="#">連繫客服團隊</a><br>
+        </div></td>
+    </tr>
+  </table>
+</div>
+<table width="100%" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td><div class="p_bg">　</div></td>
+  </tr>
+</table>
+</body>
+</html>

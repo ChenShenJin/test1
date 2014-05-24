@@ -1,0 +1,69 @@
+#search-box {
+	font-size: 12px;
+	width: 240px;
+	background: #fff url(../img/search.png) no-repeat 10px 5px;
+	padding: 3px 3px 3px 22px;
+	-webkit-border-top-left-radius: 7px;
+	-webkit-border-top-right-radius: 7px;
+	-webkit-border-bottom-left-radius: 7px;
+	-webkit-border-bottom-right-radius: 7px;
+}
+a {
+	color: #7d7e7d;
+	text-decoration: none;
+}
+.uc {
+	margin-top:8px;
+	margin-left: 30px;
+	background: url(../img/UC+_bg.png) no-repeat;
+	width: 288px;
+	height: 644px;
+	float: left;
+}
+.chat {
+	margin-left: -7px;
+	background: url(../img/chat_bg.png) no-repeat;
+	width: 702px;
+	height: 658px;
+	float: left;
+}
+.jp-container {
+	width: 285px;
+	height: 570px;
+	position: relative;
+	background: #fff;
+	border: 1px solid #9e9e9e;
+	float: left;
+}
+.jp-container a {
+	font-family: "Trebuchet MS", "微軟正黑體", Times, serif;
+	text-align: left;
+	padding: 5px 10px 5px 10px;
+	display: block;
+	line-height: 12px;
+	background-color: #fff;
+	border-bottom: 1px solid #c9c9c9;
+}
+.jp-container a:first-child {
+	border-top: none;
+}
+.jp-container a:last-child {
+	border-bottom: none;
+}
+.jp-container a:hover {
+	background: #e1f3ff;
+	border-bottom-color: #b2b2b2;
+}
+.jp-container a h3 {
+	font-size: 12px;
+	font-weight: bold;
+	color: #0e0e0e;
+}
+.jp-container a p {
+	font-size: 9px;
+}
+.jp-container a img {
+	float: left;
+	margin: 5px 5px 0px 0px;
+	padding: 3px;
+}
